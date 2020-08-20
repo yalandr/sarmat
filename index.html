@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<title>Sarmat Landing | ПРОЕКТИРОВАНИЕ И МОНТАЖ ФАСАДНЫХ СИСТЕМ</title>
+	<link
+		href="https://fonts.googleapis.com/css?family=Arsenal|Montserrat:300,400,800,900|Ruslan+Display|Russo+One&display=swap&subset=cyrillic"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<style>
+		@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+	</style>
+</head>
+
+<body>
+	<!--Header---------------------------------------->
+	<header class="header text-white" id="header">
+		<div class="navbar d-flex">
+			<div class="logo">
+				<h2 class="text-ruslan-display">-САРМАТ-</h2>
+			</div>
+			<div class="navigation">
+				<ul class="nav-list text-arsenal d-flex">
+					<li class="nav-list-item"><a href="#header">Главная</a></li>
+					<li class="nav-list-item"><a href="#projects">Проекты</a></li>
+					<li class="nav-list-item"><a href="#about">Про нас</a></li>
+					<li class="nav-list-item"><a href="#service">Услуги</a></li>
+					<li class="nav-list-item"><a href="#production">Продукция</a></a></li>
+					<li class="nav-list-item"><a href="#footer">Контакты</a></li>
+				</ul>
+			</div>
+			<div id="mobile-menu">
+				<nav>
+					<transition name="fade" mode="out-in">
+						<i class="material-icons menu" v-if="!show" @click="show=!show" key="menu">menu</i>
+						<i class="material-icons clear" v-else @click="show=!show" key="clear">clear</i>
+					</transition>
+					<transition name="fade">
+						<ul v-if="show">
+							<li class="nav-list-item">
+								<h2 class="text-ruslan-display">-САРМАТ-</h2>
+							</li>
+							<li class="nav-list-item"><a href="#header">Главная</a></li>
+							<li class="nav-list-item"><a href="#projects">Проекты</a></li>
+							<li class="nav-list-item"><a href="#service">Услуги</a></li>
+							<li class="nav-list-item"><a href="#production">Продукция</a></a></li>
+							<li class="nav-list-item"><a href="#footer">Контакты</a></li>
+						</ul>
+					</transition>
+				</nav>
+			</div>
+		</div>
+		<div class="header-content">
+			<div class="main-heading">
+				<h1 class="header-heading text-russo-one animated fadeIn delay-1s">
+					ПРОЕКТИРОВАНИЕ И МОНТАЖ ФАСАДНЫХ СИСТЕМ
+				</h1>
+			</div>
+		</div>
+	</header>
+	<!--Header End-------------------------------------->
+
+	<!--Section Projects-------------------------------->
+	<section id="projects">
+		<div class="projects d-flex">
+			<div class="section-heading-block">
+				<h2 class="section-heading text-white text-russo-one">Наши проекты</h2>
+			</div>
+			<div class="section-content d-flex ">
+				<div class="projects-item sanfran">
+					<h3 class="projects-item-heading text-montserrat text-white">ЖК Сан-Франциско</h3>
+				</div>
+				<div class="projects-item fk2">
+					<h3 class="projects-item-heading text-montserrat text-white">ЖК Французский квартал 2</h3>
+				</div>
+				<div class="projects-item medikom">
+					<h3 class="projects-item-heading text-montserrat text-white">Медиком</h3>
+				</div>
+				<div class="projects-item victory">
+					<h3 class="projects-item-heading text-montserrat text-white">ЖК Victory V</h3>
+				</div>
+				<div class="projects-item slavutich">
+					<h3 class="projects-item-heading text-montserrat text-white">ЖК Славутич</h3>
+				</div>
+				<div class="projects-item riverstone">
+					<h3 class="projects-item-heading text-montserrat text-white">ЖК River Stone</h3>
+				</div>
+			</div>
+		</div>
+		<div class="section-button-block d-flex">
+			<a href="#" class="section-button text-montserrat text-white">Посмотреть все проекты</a>
+		</div>
+	</section>
+	<!--Section Projects End-------------------------->
+
+	<!--Section About--------------------------------->
+	<section id="about">
+		<div class="about d-flex">
+			<div class="about-content d-flex column">
+				<h2 class="section-heading text-white text-russo-one">Про нас</h2>
+				<h3 class="text-dark subtitle text-montserrat"><span
+						class="text-ruslan-display text-dark heading-span">-САРМАТ- </span>- ЭТО СОВРЕМЕННЫЕ ТЕХНОЛОГИИ
+					И РАВНЕНИЕ НА БУДУЩЕЕ</h3>
+				<div class="about-text">
+					<p class="text-dark text-arsenal">Строительная компания Сармат - это команда профессионалов, которые
+						грамотно и усердно делают свою работу, развивая компанию и помогая нашим партнерам и клиентам
+						достигать новых высот.</p>
+				</div>
+			</div>
+			<div class="about-img-block">
+				<img src="img/sarmat-logo.jpg" alt="sarmat-logo" class="about-img">
+			</div>
+		</div>
+		<div class="statistics text-dark">
+			<div class="statistics-heading">
+				<h2 class="text-russo-one">Несколько цифр</h2>
+			</div>
+			<div id=counter class="statistics-items d-flex">
+				<div class="statistics-item d-flex column">
+					<p class="statistics-text  text-arsenal">Сармат это </p>
+					<img src="img/winner.png" alt="success" class="statistics-item-icon">
+					<h3 class="statistics-item-title text-russo-one"><span data-num="6"
+							class="number text-russo-one">1</span> лет
+					</h3>
+					<p class="statistics-text  text-arsenal">успешной работы</p>
+				</div>
+				<div class="statistics-item d-flex column">
+					<p class="statistics-text  text-arsenal">Установлено </p>
+					<img src="img/windows.png" alt="alluminium-windows" class="statistics-item-icon">
+					<h3 class="statistics-item-title text-russo-one"><span data-num="22"
+							class="number text-russo-one">1</span>
+						000 кв.м</h3>
+					<p class="statistics-text  text-arsenal">алюминиевых светопрозрачных конструкций</p>
+				</div>
+				<div class="statistics-item d-flex column">
+					<p class="statistics-text  text-arsenal">Смонтировано: </p>
+					<img src="img/building.png" alt="building" class="statistics-item-icon">
+					<h3 class="statistics-item-title text-russo-one"><span data-num="132"
+							class="number text-russo-one">1</span>
+						000 кв.м</h3>
+					<p class="statistics-text  text-arsenal">навесных вентилируемых фасадов</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Section About End----------------------------->
+
+	<!--Section Services------------------------------>
+	<section id="service">
+		<div class="projects d-flex">
+			<div class="section-heading-block">
+				<h2 class="section-heading text-white text-russo-one">Наши услуги</h2>
+			</div>
+			<div class="section-content d-flex ">
+				<div class="projects-item projecting">
+					<h3 class="projects-item-heading text-montserrat text-white">1. Проектирование</h3>
+				</div>
+				<div class="projects-item producing">
+					<h3 class="projects-item-heading text-montserrat text-white">2. Изготовление</h3>
+				</div>
+				<div class="projects-item installing">
+					<h3 class="projects-item-heading text-montserrat text-white">3. Монтаж</h3>
+				</div>
+			</div>
+		</div>
+		<div class="section-button-block d-flex">
+			<a href="#" class="section-button text-montserrat text-white">Связаться с нашим менеджером</a>
+		</div>
+	</section>
+	<!--Section Services End-------------------------->
+
+	<!--Section Production---------------------------->
+	<section id="production">
+		<div class="projects d-flex">
+			<div class="section-heading-block">
+				<h2 class="section-heading text-white text-russo-one">Наша продукция</h2>
+			</div>
+			<div class="section-content d-flex ">
+				<div class="projects-item spok">
+					<h3 class="projects-item-heading text-montserrat text-white">Алюминиевые светопрозрачные конструкции
+						(СПОК)</h3>
+				</div>
+				<div class="projects-item nvf">
+					<h3 class="projects-item-heading text-montserrat text-white">Навесные вентилируемые фасады</h3>
+				</div>
+				<div class="projects-item balcon">
+					<h3 class="projects-item-heading text-montserrat text-white">Балконные ограждения и корзины для
+						кондиционеров</h3>
+				</div>
+			</div>
+		</div>
+		<div class="section-button-block d-flex">
+			<a href="#" class="section-button text-montserrat text-white">Связаться с нашим менеджером</a>
+		</div>
+	</section>
+	<!--Section Production End----------------------->
+
+	<!--Section Partners----------------------------->
+	<section id="partners">
+		<div class="partners">
+			<div class="partners-heading">
+				<h2 class="text-russo-one text-dark">НАМ ДОВЕРЯЮТ</h2>
+			</div>
+			<div class="partners-block d-flex owl-carousel owl-theme">
+				<div class="partners-item">
+					<img src="img/partners/bud.jpg" alt="bud-development" class="partners-img">
+				</div>
+				<div class="partners-item">
+					<img src="img/partners/cascade.jpg" alt="bud-development" class="partners-img">
+				</div>
+				<div class="partners-item">
+					<img src="img/partners/enso.png" alt="bud-development" class="partners-img">
+				</div>
+				<div class="partners-item">
+					<img src="img/partners/perfect.png" alt="bud-development" class="partners-img">
+				</div>
+				<div class="partners-item">
+					<img src="img/partners/saga.png" alt="bud-development" class="partners-img">
+				</div>
+				<div class="partners-item">
+					<img src="img/partners/udp.png" alt="bud-development" class="partners-img">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Section Partners End-------------------------->
+
+	<!--Footer---------------------------------------->
+	<footer id="footer">
+		<div class="footer text-white d-flex">
+			<div class="footer-column d-flex column">
+				<h3 class="footer-column-heading text-montserrat">
+					Разделы
+				</h3>
+				<ul class="footer-column-list">
+					<li class="footer-column-item">
+						<a href="projects" class="footer-link">Проекты</a>
+					</li>
+					<li class="footer-column-item">
+						<a href="positions" class="footer-link">Вакансии</a>
+					</li>
+					<li class="footer-column-item">
+						<a href="contacts" class="footer-link">Контакты</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-column d-flex column">
+				<h3 class="footer-column-heading text-montserrat">
+					Ресурсы
+				</h3>
+				<ul class="footer-column-list">
+					<li class="footer-column-item">
+						Новости
+					</li>
+					<li class="footer-column-item">
+						Партнерам
+					</li>
+					<li class="footer-column-item">
+						Privacy Policy
+					</li>
+				</ul>
+			</div>
+			<div class="footer-last-column d-flex column">
+				<h3 class="footer-column-heading text-montserrat">
+					-САРМАТ-
+				</h3>
+				<ul class="footer-column-list">
+					<li class="footer-column-item">
+						03600, Украина, г. Киев, проспект Строителей, 128
+					</li>
+					<li class="footer-column-item">
+						info@sarmat.com.ua
+					</li>
+					<li class="footer-column-item phone-number text-montserrat">
+						(044) 333 44 18
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!--Footer End------------------------------------>
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
